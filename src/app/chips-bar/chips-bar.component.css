@@ -1,0 +1,22 @@
+.chip {
+  margin: 30px 1px 30px 15px !important;
+  font-size: small;
+  font-weight: 300;
+}
+/* Large screens */
+@media only screen and (min-width: 1200px) {
+  .chip {
+    margin: 30px 2px 30px 20px !important;
+    font-size: medium;
+    font-weight: 400;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .chip {
+    margin: 20px 1px 20px 15px !important;
+    font-size: small;
+    font-weight: 300;
+  }
+}
